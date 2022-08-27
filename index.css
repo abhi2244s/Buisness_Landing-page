@@ -1,0 +1,471 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+                                                
+}
+nav{
+    background-color: gray;
+    height: 500px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+   
+}
+.nav-div2{
+    width: 20%;
+   
+   
+}
+.nav-div{
+    width: 50%;
+   
+   
+}
+.nav-div1{
+    width: 20%;
+   
+   
+}
+
+a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+}
+input{
+   height: 30px;
+  
+   
+}
+input:focus {
+   /* removing the input focus blue box. Put this on the form if you like. */
+   outline: none;
+ }
+ form {
+  
+   display:flex;
+   flex-direction:row;
+   
+  
+   border:1px solid grey;
+ 
+   
+   padding:2px;
+ }
+ 
+ input {
+   
+   flex-grow:2;
+   
+ 
+   border:none;
+ }
+.lets{
+   background-color: transparent;
+   border: 1px solid darkgrey;
+   color: white;
+   padding: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.talk{
+   background-color: #8BB7A2;
+   border: 1px solid #8BB7A2;
+   padding: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+}
+.logo{
+    width: 100px;
+}
+.flex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+ }
+ .flex-box{
+    width: 45%;
+    margin: 10px;
+ }
+ .flex-box1{
+    width: 45%;
+    margin: 10px;
+ }
+ .img{
+    width: 300px;
+    height: 330px;
+    margin-top: 30px;
+ }
+ .h2{
+    text-align: center;
+    margin-top: 60px;
+ }
+ .grid{
+    display: grid;
+    width: 70%;
+    gap: 20px;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: auto;
+    margin: auto;
+
+ }
+ .grid-box{
+    margin-top: 10px;
+ }
+ .img-box{
+    width: 80%;
+    margin: auto;
+   
+ }
+ .img-box1{
+    width: 950px;
+    margin-top: 30px;
+    
+
+    
+ }
+ .box{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+ }
+ .box1{
+    width: 40%;
+    margin: 20px;
+    
+ }
+ .box12{
+    width: 40%;
+    margin: 20px;
+    
+ }
+.box1-img{
+    width: 400px;
+    margin-left: 50px;
+    
+}
+.box1-imgs{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+    
+}
+.grid2{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+}
+.grid2box-img{
+ width: 300px;
+}
+.grid2-box{
+    margin-top: 30px;
+}
+.flex3{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.logo-flex{
+   width: 40%;
+   margin: 20px;
+}
+.icon-flex{
+   width: 40%;
+   display: flex;
+   margin: 20px;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+.icon{
+   width: 30px;
+   height: 30px;
+   margin-left: 20px;
+}
+footer{
+   background-color: darkslategray;
+}
+.grid4{
+   display: grid;
+   gap: 20px;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   grid-template-rows: auto;
+   width: 80%;
+   margin: auto;
+}
+.grid4-box{
+   margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .nav-div{
+    visibility: hidden;
+
+ }
+ .nav-div1{
+    width: 60%;
+ }
+ .nav-div2{
+    width: 40%;
+ }
+ .nav{
+    width: 90%;
+ }
+ .flex{
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+ }
+ .flex-box{
+    width: 90%;
+    margin: 0;
+ }
+ .flex-box1{
+    width: 90%;
+
+ }
+ .img{
+    margin-right: 30px;
+    /* width: 200px; */
+    align-items: flex-start;
+}
+nav{
+    height: auto;
+}
+.h2{
+    text-align: center;
+    margin-top: 30px;
+ }
+ .grid{
+    display: grid;
+    width: 90%;
+    gap: 20px;
+    grid-template-columns: 43% 43% ;
+    grid-template-rows: auto;
+    margin: auto;
+
+ }
+ .grid-box{
+    margin-top: 10px;
+ }
+ .img-box{
+    width: 90%;
+    margin: auto;
+   
+ }
+ .img-box1{
+    width: 300px;
+    margin-top: 30px;
+    
+
+    
+ }
+ .box{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+  
+ }
+ .box1{
+    width: 90%;
+   
+    
+ }
+ .box12{
+    width: 90%;
+    margin-left: 0;
+    margin-right: 60px;
+   
+    
+ }
+.box1-img{
+    width: 300px;
+    margin-left: 0;
+    
+}
+.box1-imgs{
+    width: 300px;
+    
+    margin-left: 0;
+
+    
+}
+.grid2{
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    grid-template-columns: 90% ;
+    grid-template-rows: auto;
+}
+.grid2box-img{
+ width: 300px;
+}
+.grid2-box{
+    margin-top: 30px;
+}
+.flex3{
+ flex-direction:column;
+   width: 90%;
+   margin: auto;
+ }
+ .logo-flex{
+    width: 90%;
+    margin: 20px;
+ }
+ .grid4{
+   
+   gap: 20px;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: auto;
+   width: 90%;
+   margin: auto;
+}
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .flex{
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+     }
+     .flex-box{
+        width: 90%;
+        margin: 0;
+     }
+     .flex-box1{
+        width: 90%;
+        margin: 0;
+     }
+    
+   
+    
+     .img{
+        margin-right: 30px;
+        width: 200px;
+        align-items: flex-start;
+    }
+    nav{
+        height: auto;
+    }
+    .h2{
+        text-align: center;
+        margin-top: 30px;
+     }
+     .grid{
+        display: grid;
+        width: 90%;
+        gap: 20px;
+        grid-template-columns: 43% 43% ;
+        grid-template-rows: auto;
+        margin: auto;
+    
+     }
+     .grid-box{
+        margin-top: 10px;
+     }
+     .img-box{
+        width: 90%;
+        margin: auto;
+       
+     }
+     .img-box1{
+        width: 300px;
+        margin-top: 30px;
+        
+    
+        
+     }
+     .box{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        margin: auto;
+      
+     }
+     .box1{
+        width: 90%;
+       
+        
+     }
+     .box12{
+        width: 90%;
+        margin-left: 0;
+       
+        
+     }
+    .box1-img{
+        width: 300px;
+        margin-left: 0;
+        
+    }
+    .box1-imgs{
+        width: 300px;
+        
+        margin-left: 0;
+    
+        
+    }
+    .grid2{
+      width: 90%;
+      margin: auto;
+      gap: 20px;
+      grid-template-columns: 80%;
+      grid-template-rows: auto;
+  }
+  
+
+}
+
+@media only screen and (max-width: 992px) {
+    .img-box{
+        width: 90%;
+        margin: auto;
+       
+     }
+     .img-box1{
+        width: 300px;
+        margin-top: 30px;
+        
+    
+        
+     }
+     .grid2{
+        width: 90%;
+        margin: auto;
+       
+         gap: 20px;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto;
+    }
+    .grid2box-img{
+     width: 200px;
+    }
+    .grid2-box{
+        margin-top: 30px;
+    }
+    
+    
+    
+}
